@@ -2,31 +2,31 @@ ingestion_config=[
     {
         "source":"crm",
         "path":"/Volumes/sales/bronze/crm/cust_info.csv",
-        "table":"sales.bronze.cust_info"
+        "table":"sales.bronze.crm_cust_info"
     },
     {
         "source":"crm",
         "path":"/Volumes/sales/bronze/crm/prd_info.csv",
-        "table":"sales.bronze.prd_info"
+        "table":"sales.bronze.crm_prd_info"
     },
     {
         "source":"crm",
         "path":"/Volumes/sales/bronze/crm/sales_details.csv",
-        "table":"sales.bronze.sales_details"
+        "table":"sales.bronze.crm_sales_details"
     },
     {
         "source":"erp",
         "path":"/Volumes/sales/bronze/erp/CUST_AZ12.csv",
-        "table":"sales.bronze.CUST_AZ12"
+        "table":"sales.bronze.erp_CUST_AZ12"
     },
     {
         "source":"erp",
         "path":"/Volumes/sales/bronze/erp/LOC_A101.csv",
-        "table":"sales.bronze.LOC_A101"
+        "table":"sales.bronze.erp_LOC_A101"
     },
     {
         "source":"erp",
         "path":"/Volumes/sales/bronze/erp/PX_CAT_G1V2.csv",
-        "table":"sales.bronze.PX_CAT_G1V2"
+        "table":"sales.bronze.erp_PX_CAT_G1V2"
     }
 ]
